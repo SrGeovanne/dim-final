@@ -1,0 +1,59 @@
+/* Estilos avançados para o formulário de criação de projeto */
+
+/* Estilo para o cabeçalho h2 */
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Estilo para os rótulos */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+/* Estilo para os campos de entrada de texto */
+input[type="text"] {
+    width: 18%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Estilo para os selects */
+select {
+    width: 20%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Estilo para o botão de envio */
+input[type="submit"] {
+    background-color: #0074D9;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
